@@ -144,7 +144,6 @@ if __name__ == "__main__" :
 Bot.start()
 User.start()
 # Loop Clients till Disconnects
-idle()
 # After Disconnects,
 # Stop Clients
 Bot.stop()
