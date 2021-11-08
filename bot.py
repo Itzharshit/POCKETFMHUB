@@ -1,4 +1,4 @@
-from pyrogram import idle , client
+
 
 import logging
 logging.basicConfig(level=logging.DEBUG,
@@ -8,7 +8,6 @@ logger = logging.getLogger(__name__)
 import os
 
 from config import Config
-from pyrogram import Client 
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from config import Config
 from pyrogram import Client, filters, idle
